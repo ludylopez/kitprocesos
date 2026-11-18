@@ -1,0 +1,15 @@
+KIT PARA MEJORAR LOS PROCESOS DE TU NEGOCIO
+
+1. Descomprime esta carpeta (no la abras dentro del ZIP).
+2. Abre la app de Claude, entra a "Code" y elige esta carpeta.
+   Si te pregunta si confías en la carpeta, responde que sí.
+3. Escribe "hola". Claude te va a guiar paso a paso.
+
+Para retomar otro día: abre la misma carpeta y escribe "hola".
+
+Frases útiles:
+  - "Explícamelo más fácil" o "dame ejemplos"
+  - "Regresemos, quiero cambiar algo"
+  - "¿Dónde voy?"
+
+Tu trabajo queda guardado en la carpeta "proyecto".

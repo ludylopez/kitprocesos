@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(git init)",
+      "Bash(git status*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git restore *)",
+      "Bash(cp -R plantillas/*)",
+      "Bash(open *)",
+      "Bash(ls*)",
+      "Bash(mkdir *)",
+      "Bash(npm install*)",
+      "Bash(npm run *)",
+      "Bash(npx create-next-app*)"
+    ],
+    "ask": [
+      "Bash(git push*)",
+      "Bash(npx vercel --prod*)",
+      "Bash(vercel --prod*)",
+      "Bash(npx supabase db push*)",
+      "Bash(supabase db push*)",
+      "Bash(npx supabase link*)",
+      "Bash(npx @google/clasp push*)",
+      "Bash(clasp push*)",
+      "mcp__supabase__apply_migration",
+      "mcp__supabase__execute_sql"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean *)",
+      "Bash(npx supabase db reset*)",
+      "Bash(supabase db reset*)",
+      "Read(**/.env.production*)"
+    ]
+  }
+}
